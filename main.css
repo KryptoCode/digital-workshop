@@ -51,10 +51,10 @@ a:visited {
 /* Jumbo Tron Elements */
 .jumbotron {
 	width: 100%;
-	height: 45vh;
+	height: 63vh;
 	background-image: url(./img/wot-masthead-dark.jpg);
 	background-size: cover;
-	background-position: 56% 50%;
+	background-position: 49%;
 	text-align: center; 
 
 }
@@ -138,15 +138,15 @@ a:visited {
 }
 
 .nav-bar {
-	height: 9vh;
+	height: 12vh;
 	width: 100%;
 	background-color: #fff;
 }
 
 .nav-image {
-	height: 40%;
+	height: 45%;
 	float: left;
-	margin: 22px 0px 20px 30px;
+	margin: 20px 0px 20px 30px;
 }
 
 .collapse-menu-img {
@@ -156,11 +156,10 @@ a:visited {
 	background-repeat: no-repeat;
 	background-position: center;
 	float: right;
-	margin: 24px 30px 20px 0;
+	margin: 20px 30px 20px 0;
 	height: 0;
-	width: 18px;
-	padding: 0;
-	padding-bottom: calc(8% * 3 / 4);
+	width: 20px;
+	padding-bottom: calc(10% * 3 / 4);
 }
 
 .main-content {
@@ -206,7 +205,7 @@ a:visited {
 	line-height: 25px;
 	color: #97a2a7;
 	margin: 0;
-	padding: 70px 30px 70px 0;
+	padding: 70px 30px 30px 0;
 }
 
 .ideas-sprite-img {
@@ -268,6 +267,224 @@ a:visited {
 	height: 111px;
 	border: none;
 	margin: auto;
+}
+
+.help-container {
+	background-color: #F0F0F0;
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+}
+
+.section-header-content {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.help-content {
+	background-color: #fff;
+	padding: 10px 25px;
+	width: 95%;
+	margin: 15px auto;
+}
+
+.help-blast-title {
+	font-family: "Oswald";
+	font-weight: 300;
+	font-size: 42px;
+	line-height: 46px;
+	margin: 0;
+}
+
+.help-head-text {
+	font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+.help-txt-bold-blue {
+	color: #40666d;
+}
+
+.help-txt-regular-grey {
+	color: #858585;
+}
+
+.help-content-strong-txt {
+	font-family: "Open Sans";
+	font-size: 24px;
+	line-height: 25px;
+	font-weight: 500;	
+}
+
+.help-content-regular-txt {
+	font-family: "Open Sans";
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 500;
+}
+
+.btn-contact {
+	background-color: #BDD436;
+	width: 100%;
+	height: 45px;
+	border-radius: 50px;
+	margin: 75px auto 36px auto;
+	padding-top: 2.5%;
+}
+
+.contact-us-txt {
+	font-family: 'Lato', Sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.client-container {
+	text-align: center;
+	background-color: #fff;
+}
+
+.client-header {
+	font-family: "Oswald";
+	font-size: 42px;
+	line-height: 46px;
+	color: #6a787c;
+	font-weight: 300;
+	text-align: center;
+}
+
+.client-one {
+	width: 100%;
+	height: 275px;
+	background-image: url('./img/CI-portfolio.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.client-two {
+	width: 100%;
+	height: 275px;
+	background-image: url('./img/AM-portfolio.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.client-three {
+	width: 100%;
+	height: 275px;
+	background-image: url('./img/VG-portfolio.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.client-four {
+	width: 100%;
+	height: 275px;
+	background-image: url('./img/NCMA-portfolio.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.client-five {
+	width: 100%;
+	height: 275px;
+	background-image: url('./img/KF-portfolio.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.client-six {
+	width: 100%;
+	height: 275px;
+	background-image: url('./img/TS-portfolio.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hover-img, .hover-text {
+	visibility: hidden;
+}
+
+.email-container {
+	height: 340px;
+	background-color: #6a787c;
+	text-align: center;
+	color: #fff;
+	padding: 37px 45px 0 45px;
+}
+
+.em-heading-text {
+	font-family: 'Lato';
+	font-size: 30px;
+	line-height: 33px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.border-dash-grn {
+	border-top: 8px solid #BDD436;
+	width: 90px;
+	margin: 0 auto;
+
+}
+
+.email-content-txt {
+	font-family: 'Lato';
+	font-size: 15px;
+	line-height: 25px;
+	color: #fff;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+
+.email-btn {
+	width: 48%;
+	height: 50px;
+	background-color: #BDD436;
+	border-radius: 50px;
+	color: #fff;
+	font-family: 'Lato';
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: bold;
+	margin: auto;
+	padding-top: 12px;
+}
+
+.copyright-container {
+	background-color: #EEEEEE;
+	width: 100%;
+	height: 65px;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	line-height: 25px;
+	color: #6a787c;
+	font-weight: 500;
+	text-align: center;
+	margin: 0;
+	padding-top: 22px;
+}
+
+.copyright-container > p {
+	margin: 0;
+}
+
+.copyright-span {
+
+	color: #BDD436;
 }
 
 @media (min-width: 1024px) {
