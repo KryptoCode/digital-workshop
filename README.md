@@ -1,2 +1,2 @@
-# digital-workshop
-Clone of the "Your Digital Workshop" Site
+# Wide-Open-Tech
+Clone of the "Wide Open Tech" Site
